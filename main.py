@@ -47,7 +47,7 @@ while True:
     if '09:00' < current_time < '21:00': 
 
         API_KEY = config.api_key
-        pb = Pushbullet(API_KEY)
+        pb = Pushbullet(API_KEY) #read the read.md file please.
 
         dictionary = PyDictionary()
         with open(file, mode = 'w') as f:
